@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main">
+		<div data-role="header" data-position="fixed">
+			<a href="" data-icon="home">Home</a>
+			<h1>Info Wisata</h1>
+			<a href="#secondPage" data-icon="info">About</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/01.jpg"/>
+						<h4>Pulau Bali</h4>
+						<p>Informasi Tentang Pariwisata Pulau Bali</p>
+						<span class="ui-li-count">15</span>
+						<a href="#BaliPage"></a>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Candi Prambanan</h4>
+						<p>Informasi Tentang Candi Prambanan</p>
+						<span class="ui-li-count">2</span>
+						<a href="#PrambananPage"></a>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/02.jpg"/>
+						<h4>Candi Borobudur</h4>
+						<p>Informasi Tentang Candi Borobudur</p>
+						<span class="ui-li-count">2</span>
+						<a href="#BorobudurPage"></a>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Tugu Monas</h4>
+						<p>Informasi Tentang Tugu Monas</p>
+						<span class="ui-li-count">8</span>
+						<a href="#MonasPage"></a>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<h4>FTI &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="secondPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<p>
+				Betin Senita W. 672012214
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="BaliPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Pulau Bali</h1>
+		</div>
+		<div data-role="content">
+		<img src="img/bali.jpg"/>
+			<p>
+				Inilah pulau yang paling terkenal di Indonesia. Tempat mengagumkan yang menyimpan gabungan keindahan lanskap alam spektakuler dan budaya yang begitu memikat. Keindahannya selaras dengan orang-orang yang hangat dan ramah. Di sini kebudayaan terus dilestarikan dari generasi ke generasi. Ada dan tiada wisatawan maka riuh adat dan genderang bunyi tabuhan alat musik tradisional dipentaskan.
+Sebagai destiansi paling popular di Indonesia, Bali memiliki resor terbaik di dunia berpadu dengan pantai menawan dan kehidupan malam yang meriah. Majalah Travel and Leisure memilih Bali sebagai  World's Best Island tahun 2009, sementara Lonely Planet's memilih Bali sebagai peringkat kedua Best of Travel 2010.
+
+Bali dikenal dengan sebutan pulau dewata, pulau seribu pura, atau pulau surga. Keindahan alam luar biasa, seperti gunung berapi yang tampak dekat dan besar, sawahnya yang menghampar hijau memberikan rasa damai dan ketenangan, serta butiran pasir dan keindahan lautnya yang mengagumkan. Rasakan oleh Anda sepoi-sepoi dan awan berarak-arak di langit seolah menjadi persembahan keindahan alam yang tiada habisnya.
+
+Di Bali akan Anda temukan keagungan karya seni dan budaya. Lekuk detail dan simbol-simbol yang seolah lahir dari kreativitas tanpa batas dan terus saja menyempurnakan diri. Bali juga memiliki tariannya yang dramatis dan upacara adatnya yang beragam, seni dan kerajinan tangannya yang indah dan berkualitas. Banyak hal menarik yang ditawarkan pulau eksotis ini, mulai dari kehidupan spiritualnya sampai kuliner dan pengalaman luar biasa, dari surfing, diving sampai trekking di hutan yang menantang keberanian Anda.  Anda akan menemukan pura indah yang dibangun dengan mengagumkan kemanapun Anda menjejakan kaki di pulau magis bermagnet ini.
+
+Masyarakat Bali yang menganut agama Hindu Bali yang taat, sebagian besar hidupnya didedikasikan dalam upacara adat yang bertujuan untuk memelihara keharmonisan di dunia. Oleh karena itu, pulau kecil ini menyimpan banyak kejutan budaya di dalamnya. Bali adalah tempat berkumpulnya berbagai wisatawan dari seluruh dunia, mulai dari wisatawan yang datang untuk berselancar di ombak Pantai Kuta, Uluwatu, dan Dreamland, sampai wisatawan yang datang untuk menikmati keindahan panorama pegunungan dan danau di Danau Batur, Kintamani, atau Beratan di Bedugul, sampai wisatawan yang datang hanya untuk berbelanja atau menghabiskan waktu di pantai.
+			</p>			
+		</div>
+		
+	</div>
+	<div data-role="page" id="PrambananPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Candi Prambanan</h1>
+		</div>
+		<div data-role="content">
+		<img src="img/prambana.jpg"/>
+			<p>
+				Candi Prambanan adalah bangunan luar biasa cantik yang dibangun di abad ke-10 pada masa pemerintahan dua raja, Rakai Pikatan dan Rakai Balitung. Menjulang setinggi 47 meter (5 meter lebih tinggi dari Candi Borobudur), berdirinya candi ini telah memenuhi keinginan pembuatnya, menunjukkan kejayaan Hindu di tanah Jawa. Candi ini terletak 17 kilometer dari pusat kota Yogyakarta, di tengah area yang kini dibangun taman indah.
+
+Ada sebuah legenda yang selalu diceritakan masyarakat Jawa tentang candi ini. Alkisah, lelaki bernama Bandung Bondowoso mencintai Roro Jonggrang. Karena tak mencintai, Jonggrang meminta Bondowoso membuat candi dengan 1000 arca dalam semalam. Permintaan itu hampir terpenuhi sebelum Jonggrang meminta warga desa menumbuk padi dan membuat api besar agar terbentuk suasana seperti pagi hari. Bondowoso yang baru dapat membuat 999 arca kemudian mengutuk Jonggrang menjadi arca yang ke-1000 karena merasa dicurangi.
+
+Candi Prambanan memiliki 3 candi utama di halaman utama, yaitu Candi Wisnu, Brahma, dan Siwa. Ketiga candi tersebut adalah lambang Trimurti dalam kepercayaan Hindu. Ketiga candi itu menghadap ke timur. Setiap candi utama memiliki satu candi pendamping yang menghadap ke barat, yaitu Nandini untuk Siwa, Angsa untuk Brahma, dan Garuda untuk Wisnu. Selain itu, masih terdapat 2 candi apit, 4 candi kelir, dan 4 candi sudut. Sementara, halaman kedua memiliki 224 candi.
+
+Memasuki candi Siwa yang terletak di tengah dan bangunannya paling tinggi, anda akan menemui 4 buah ruangan. Satu ruangan utama berisi arca Siwa, sementara 3 ruangan yang lain masing-masing berisi arca Durga (istri Siwa), Agastya (guru Siwa), dan Ganesha (putra Siwa). Arca Durga itulah yang disebut-sebut sebagai arca Roro Jonggrang dalam legenda yang diceritakan di atas.
+
+Di Candi Wisnu yang terletak di sebelah utara candi Siwa, anda hanya akan menjumpai satu ruangan yang berisi arca Wisnu. Demikian juga Candi Brahma yang terletak di sebelah selatan Candi Siwa, anda juga hanya akan menemukan satu ruangan berisi arca Brahma.
+
+Candi pendamping yang cukup memikat adalah Candi Garuda yang terletak di dekat Candi Wisnu. Candi ini menyimpan kisah tentang sosok manusia setengah burung yang bernama Garuda. Garuda merupakan burung mistik dalam mitologi Hindu yang bertubuh emas, berwajah putih, bersayap merah, berparuh dan bersayap mirip elang. Diperkirakan, sosok itu adalah adaptasi Hindu atas sosok Bennu (berarti 'terbit' atau 'bersinar', biasa diasosiasikan dengan Dewa Re) dalam mitologi Mesir Kuno atau Phoenix dalam mitologi Yunani Kuno. Garuda bisa menyelamatkan ibunya dari kutukan Aruna (kakak Garuda yang terlahir cacat) dengan mencuri Tirta Amerta (air suci para dewa).
+
+Kemampuan menyelamatkan itu yang dikagumi oleh banyak orang sampai sekarang dan digunakan untuk berbagai kepentingan. Indonesia menggunakannya untuk lambang negara. Konon, pencipta lambang Garuda Pancasila mencari inspirasi di candi ini. Negara lain yang juga menggunakannya untuk lambang negara adalah Thailand, dengan alasan sama tapi adaptasi bentuk dan kenampakan yang berbeda. Di Thailand, Garuda dikenal dengan istilah Krut atau Pha Krut.
+
+Prambanan juga memiliki relief candi yang memuat kisah Ramayana. Menurut para ahli, relief itu mirip dengan cerita Ramayana yang diturunkan lewat tradisi lisan. Relief lain yang menarik adalah pohon Kalpataru yang dalam agama Hindu dianggap sebagai pohon kehidupan, kelestarian dan keserasian lingkungan. Di Prambanan, relief pohon Kalpataru digambarkan tengah mengapit singa. Keberadaan pohon ini membuat para ahli menganggap bahwa masyarakat abad ke-9 memiliki kearifan dalam mengelola lingkungannya.
+
+Sama seperti sosok Garuda, Kalpataru kini juga digunakan untuk berbagai kepentingan. Di Indonesia, Kalpataru menjadi lambang Wahana Lingkungan Hidup (Walhi). Bahkan, beberapa ilmuwan di Bali mengembangkan konsep Tri Hita Karana untuk pelestarian lingkungan dengan melihat relief Kalpataru di candi ini. Pohon kehidupan itu juga dapat ditemukan pada gunungan yang digunakan untuk membuka kesenian wayang. Sebuah bukti bahwa relief yang ada di Prambanan telah mendunia.
+
+Kalau cermat, anda juga bisa melihat berbagai relief burung, kali ini burung yang nyata. Relief-relief burung di Candi Prambanan begitu natural sehingga para biolog bahkan dapat mengidentifikasinya sampai tingkat genus. Salah satunya relief Kakatua Jambul Kuning (Cacatua sulphurea) yang mengundang pertanyaan. Sebabnya, burung itu sebenarnya hanya terdapat di Pulau Masakambing, sebuah pulau di tengah Laut Jawa. Lalu, apakah jenis itu dulu pernah banyak terdapat di Yogyakarta? Jawabannya silakan cari tahu sendiri. Sebab, hingga kini belum ada satu orang pun yang bisa memecahkan misteri itu.
+			</p>			
+		</div>
+		
+	</div>
+	<div data-role="page" id="BorobudurPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Candi Borobudur</h1>
+		</div>
+		<div data-role="content">
+		<img src="img/borobudur.jpg"/>
+			<p>
+				Jauh sebelum Angkor Wat berdiri di Kamboja dan katedral-katedral agung ada di Eropa, Candi Borobudur telah berdiri dengan gagah di tanah Jawa. Bangunan yang disebut UNESCO sebagai monumen dan kompleks stupa termegah serta terbesar di dunia ini ramai dikunjungi oleh peziarah pada pertengahan abad ke-9 hingga awal abad ke-11. Umat Buddha yang ingin mendapatkan pencerahan berduyun-duyun datang dari India, Kamboja, Tibet, dan China. Tidak hanya megah dan besar, dinding Candi Borobudur dipenuhi pahatan 2672 panel relief yang jika disusun berjajar akan mencapai panjang 6 km! Hal ini dipuji sebagai ansambel relief Buddha terbesar dan terlengkap di dunia, tak tertandingi dalam nilai seni.
+
+Relief yang terpahat di dinding candi terbagi menjadi 4 kisah utama yakni Karmawibangga, Lalita Wistara, Jataka dan Awadana, serta Gandawyuda. Selain mengisahkan tentang perjalanan hidup Sang Buddha dan ajaran-ajarannya, relief tersebut juga merekam kemajuan masyarakat Jawa pada masa itu. Bukti bahwa nenek moyang Bangsa Indonesia adalah pelaut yang ulung dan tangguh dapat dilihat pada 10 relief kapal yang ada. Salah satu relief kapal dijadikan model dalam membuat replika kapal yang digunakan untuk mengarungi The Cinnamon Route dari Jawa hingga benua Afrika. Saat ini replika kapal yang disebut sebagai Kapal Borobudur itu disimpan di Museum Samudra Raksa.
+
+Untuk mengikuti alur jalinan kisah yang terpahat pada dinding candi, pengunjung harus berjalan mengitari candi searah jarum jam atau yang dikenal dengan istilah pradaksina. Masuk melalui pintu timur, berjalan searah jarum jam agar posisi candi selalu ada di sebelah kanan, hingga tiba di tangga timur dan melangkahkan kaki naik ke tingkat berikutnya. Hal ini dilakukan berulang-ulang hingga semua tingkat terlewati dan berada di puncak candi yang berbentuk stupa induk. Sesampainya di puncak, layangkanlah pandangan ke segala arah maka akan terlihat deretan Perbukitan Menoreh, Gunung Sindoro, Gunung Sumbing, Gunung Merapi, dan Gunung Merbabu yang berdiri tegak mengitari candi. Gunung dan perbukitan tersebut seolah-olah menjadi penjaga yang membentengi keberadaan Candi Borobudur.
+
+Berdasarkan prasasti Kayumwungan yang bertanggal 26 Mei 824, Candi Borobudur dibangun oleh Raja Samaratungga antara abad ke-8 hingga abad ke-9, berbarengan dengan Candi Mendut dan Candi Pawon. Proses pembangunan berlangsung selama 75 tahun di bawah kepemimpinan arsitek Gunadarma. Meski belum mengenal komputer dan peralatan canggih lainnya, Gunadarma mampu menerapkan sistem interlock dalam pembangunan candi. Sebanyak 60.000 meter kubik batu andesit yang berjumlah 2.000.000 balok batu yang diusung dari Sungai Elo dan Progo dipahat dan dirangkai menjadi puzzle raksasa yang menutupi sebuah bukit kecil hingga terbentuk Candi Borobudur.
+
+Borobudur tidak hanya memiliki nilai seni yang teramat tinggi, karya agung yang menjadi bukti peradaban manusia pada masa lalu ini juga sarat dengan nilai filosofis. Mengusung konsep mandala yang melambangkan kosmologi alam semesta dalam ajaran Buddha, bangunan megah ini dibagi menjadi tiga tingkatan, yakni dunia hasrat atau nafsu (Kamadhatu), dunia bentuk (Rupadhatu), dan dunia tanpa bentuk (Arupadhatu). Jika dilihat dari ketinggian, Candi Borobudur laksana ceplok teratai di atas bukit. Dinding-dinding candi yang berada di tingkatan Kamadatu dan Rupadatu sebagai kelopak bunga, sedangkan deretan stupa yang melingkar di tingkat Arupadatu menjadi benang sarinya. Stupa Induk melambangkan Sang Buddha, sehingga secara utuh Borobudur menggambarkan Buddha yang sedang duduk di atas kelopak bunga teratai.
+
+Menikmati kemegahan Candi Borobudur tidak hanya cukup dengan berjalan menyusuri lorong dan naik ke tingkat teratas candi. Satu hal yang jangan dilewatkan adalah menyaksikan Borobudur Sunrise dan Borobudur Sunset dari atas candi. Siraman cahaya mentari pagi yang menerpa stupa dan arca Buddha membuat keagungan dan kemegahan candi lebih terasa. Sedangkan berdiri di puncak candi di kala senja bersama deretan stupa dan menyaksikan sinar matahari yang perlahan mulai lindap akan menciptakan perasaan tenang dan damai.
+			</p>			
+		</div>
+		
+	</div>
+	<div data-role="page" id="MonasPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Tugu Monas</h1>
+		</div>
+		<div data-role="content">
+		<img src="img/monas.jpg"/>
+			<p>
+				Monumen Nasional atau yang populer disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki) yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda. Pembangunan monumen ini dimulai pada tanggal 17 Agustus 1961 di bawah perintah presiden Sukarno, dan dibuka untuk umum pada tanggal 12 Juli 1975. Tugu ini dimahkotai lidah api yang dilapisi lembaran emas yang melambangkan semangat perjuangan yang menyala-nyala. Monumen Nasional terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat. Monumen dan museum ini dibuka setiap hari mulai pukul 08.00 - 15.00 WIB. Pada hari Senin pekan terakhir setiap bulannya ditutup untuk umum.
+			</p>			
+		</div>
+		
+	</div>
+	
+</body>
+</html>
